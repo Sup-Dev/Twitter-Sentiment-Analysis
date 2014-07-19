@@ -30,4 +30,23 @@ $ python twitterstream.py > output.txt
 
 ### tweet_sentiment.py
 
-Derives the sentiment of each tweet. This file will compute the sentiment of each tweet based on the sentiment scores.
+Derives the sentiment of each tweet. This file will compute the sentiment of each tweet based on the sentiment scores. The sentiment of a tweet is calculated by adding the sentiment of each word in the tweet.
+To calculate the sentiments of tweets generated, use the following command:
+
+```
+$ python tweet_sentiment.py AFINN-111.txt output.txt
+```
+
+The **AFINN-111.txt** file contains a list of pre-computed sentiment scores.
+
+### term_sentiment.py
+
+Derives the sentiment of new terms. Sentiment scores of new terms is calculated using the formula:
+
+ p(Positive Word/Topic Word)/p(Negative Word/Topic Word)
+
+Calculate new sentiment scores using the following command:
+
+```
+$ python term_sentiment.py AFINN-111.txt output.txt
+```

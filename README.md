@@ -7,10 +7,10 @@ The descriptions on each file is below:
 ### apikey.py
 
 Imports the collects the keys from the text file **Twitter API.txt**. The list of keys in order is as follows:
-1. api_key
-2. api_secret
-3. access_token_key
-4. access_token_secret
+1.api_key
+2.api_secret
+3.access_token_key
+4.access_token_secret
 
 ### twitterstream.py
 
@@ -43,7 +43,9 @@ The **AFINN-111.txt** file contains a list of pre-computed sentiment scores.
 
 Derives the sentiment of new terms. Sentiment scores of new terms is calculated using the formula:
 
+```
  p(Positive Word/Topic Word)/p(Negative Word/Topic Word)
+```
 
 Calculate new sentiment scores using the following command:
 

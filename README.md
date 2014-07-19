@@ -7,10 +7,11 @@ The descriptions on each file is below:
 ### apikey.py
 
 Imports the collects the keys from the text file **Twitter API.txt**. The list of keys in order is as follows:
-1.api_key
-2.api_secret
-3.access_token_key
-4.access_token_secret
+
+1. api_key
+2. api_secret
+3. access_token_key
+4. access_token_secret
 
 ### twitterstream.py
 

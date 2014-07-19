@@ -53,3 +53,39 @@ Calculate new sentiment scores using the following command:
 ```
 $ python term_sentiment.py AFINN-111.txt output.txt
 ```
+
+### frequency.py
+
+Computes the *term frequency histogram* of the Tweeter stream. The frequency is calculated using the formula:
+
+ ```
+ [Number of occurrences of the term in all tweets]/[Number of occurrences of all terms in all tweets]
+ ```
+
+Run the following command to compute the frequencies:
+
+```
+$ python frequency.py output.txt
+```
+
+### happiest_state.py
+
+Computes and returns the name of the happiest state in US.
+
+Type the following command on your terminal:
+
+```
+$ python happiest_state.py AFINN-111.txt output.txt
+```
+
+### top_ten.py
+
+Computes the ten most frequently used hashtags for the data gathered from the Tweeter stream.
+
+```
+$ python top_ten.py output.txt
+```
+
+### AFINN-111.txt
+
+Contains a list of precomputed sentiment scores.

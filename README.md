@@ -1,6 +1,7 @@
-# Sentiment Analysis on Live Twitter Stream using Python
+## Sentiment Analysis on Live Twitter Stream using Python
+=========================================================
 
-## Python Version -- Python 2.7.x
+### Python Version -- Python 2.7.x
 
 The descriptions on each file is below:
 
